@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+    <!--
+    div#weekly-message {
+        font-weight: bold;
+        font-size: 25px;
+        color: white;
+        background: grey no-repeat center top;
+        background-image: url(./Asset/kitty-2948404_1920.jpg);
+        text-align: center;
+        width: 80%;
+        padding: 40px 0 15px 0;
+        border: 2px #000000 solid;
+    }
+    -->
+    </style>
+    <title>Weekly Message</title>
+</head>
+<body>
+    
+    <div id="weekly-message"></div>
+
+<script type="text/javascript">
+<!--
+var message = new Array(
+    '１週間の始まり！乗り越えろ！月曜日！',
+    '昨日の自分を超えろ！火曜日！',
+    '夕方はレイドアワーだ！それに向かってがんばれ！',
+    'やり忘れた事はないか？週末に向けて準備開始。木曜日。',
+    '明日から週末だ！もう一息。金曜日！',
+    'オフを楽しめ！家族と時間を過ごせ！土曜日！',
+    'もう一日休みがあるなんて幸せだ。日曜日！',
+);
+var now = new Date();
+var week = now.getDay();
+function weeklyMessage(){
+    document.getElementById( 'weekly-message').innerHTML=message[week];
+}
+window.onload=weeklyMessage;
+// -->    
+</script>
+
+
+</body>
+</html>
